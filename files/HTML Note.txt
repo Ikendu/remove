@@ -1,0 +1,63 @@
+Create favicon here 
+https://www.favicon.cc.
+
+<p><a href="mailto:someone@example.com">Send email</a></p>
+	to open email app on devices.
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+	using button as a link.
+
+
+
+	bookark a section to jump to when clicked
+<h2 id="C4">Chapter 4</h2>
+
+<a href="#C4">Jump to Chapter 4</a> 
+<a href="html_demo.html#C4">Jump to Chapter 4</a>  
+	//No.2 will go to external page and jump to section.
+
+
+
+image map
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
+The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top: 
+
+
+BACKGROUND IMAGE
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+	U<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>sing image element to display different image based on screen size
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+
+
+FAVICON
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
