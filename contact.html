@@ -3,10 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .newspaper {
+        column-count: 3;
+        column-gap: 50px;
+        column-width: 400px;
+        column-rule: 2px solid blue;
+      }
+      .second {
+        margin: 50px;
+        width: 800px;
+        border: solid 2px blue;
+        resize: both;
+        overflow: auto;
+      }
+      .area {
+        resize: none;
+        overflow: hidden;
+        height: 200px;
+        width: 400px;
+      }
+      @media (max-width: 900px) {
+        .second {
+          width: 500px;
+          background-color: blue;
+          color: white;
+        }
+      }
+      @media (max-width: 600px) {
+        .second {
+          width: 400px;
+          color: #e9d2d2;
+        }
+      }
+      @media (max-width: 300px) {
+        .second {
+          width: 250px;
+          background-color: rgb(5, 155, 38);
+        }
+      }
+    </style>
     <title>Document</title>
   </head>
   <body>
     <h2>My Contact Page</h2>
     <p>You are welcome to my company</p>
+    <div class="newspaper">
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+      wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+      lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+      iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+      illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
+      odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+      dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis
+      eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+      possim assum. fhdhtdt wisi enim ad minim veniam, quis nostrud exerci
+      tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+      consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+      esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+      vero eros et accumsan et iusto odio dignissim qui blandit praesent
+      luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam
+      liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+      doming id quod mazim placerat facer
+    </div>
+    <div class="second">
+      esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+      vero eros et accumsan et iusto odio dignissim qui blandit praesent
+      luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam
+      liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+      doming id quod mazim placerat facer
+    </div>
+    <textarea name="" id="" class="area">
+ esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+      vero eros et accumsan et iusto odio dignissim qui blandit praesent
+      luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam
+      liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+      doming id quod mazim placerat facer</textarea
+    >
   </body>
 </html>
