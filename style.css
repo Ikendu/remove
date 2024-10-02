@@ -1,0 +1,92 @@
+body {
+  background-image: url("images/cnn.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: aliceblue;
+}
+h1 {
+  background-color: green;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+a {
+  color: brown;
+}
+.para {
+  background-color: black;
+  color: aliceblue;
+  padding: 30px;
+  border: solid 20px rgb(38, 246, 31);
+  font-size: 100px;
+}
+.tomato {
+  text-align: center;
+  border: solid 10px blue;
+  font-size: 80px;
+}
+.image {
+  width: 100px;
+  border-radius: 20px;
+}
+.image:hover {
+  border: solid 5px rgb(92, 10, 245);
+}
+table,
+td,
+th {
+  border: solid 2px rgb(10, 121, 231);
+  border-collapse: collapse;
+}
+
+table {
+  width: 50%;
+  margin: 80px 40px 200px 500px;
+  background-color: rgb(81, 81, 129);
+}
+td,
+th {
+  padding: 20px;
+  text-align: left;
+}
+tr:nth-child(odd) {
+  background-color: rgb(34, 54, 48);
+}
+.imagecont {
+  /* width: 400px;
+        height: 400px;
+        border: 3px solid brown; */
+  mask-image: radial-gradient(circle, black 40%, rgba(0, 0, 0, 0.3) 40%);
+}
+.cnnimage {
+  width: 100%;
+  object-fit: cover;
+}
+.headlist {
+  background-color: blue;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+  float: right;
+}
+.headlist li {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+}
+.headlist li:hover {
+  background-color: rgb(101, 100, 100);
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+span {
+  font-size: 60px;
+}
+header {
+  height: 50px;
+}
