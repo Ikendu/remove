@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+}
+div {
+  padding: 20px;
+  background-color: aqua;
+  border: 2px solid green;
+}
+
+.parent {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  /* align-content: center; */
+}
+.four {
+  height: 40px;
+}
+input {
+  width: 300px;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  align-items: center;
+}
+.fifth {
+  align-self: center;
+  order: 3;
+}
+.first {
+  order: 8;
+}
