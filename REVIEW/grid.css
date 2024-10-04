@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px auto;
+  gap: 20px 50px;
+  background-color: rgb(128, 128, 234);
+  height: 100vh;
+  align-content: space-between;
+  /* justify-content: space-evenly; */
+}
+.grid-item {
+  padding: 30px;
+  background-color: aquamarine;
+  border: solid 2px blue;
+}
+.one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
