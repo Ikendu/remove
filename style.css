@@ -90,3 +90,9 @@ span {
 header {
   height: 50px;
 }
+.items {
+  border: solid 4px white;
+}
+.blueItem {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
