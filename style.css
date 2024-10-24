@@ -23,8 +23,11 @@ a {
 }
 .tomato {
   text-align: center;
-  border: solid 10px blue;
-  font-size: 80px;
+  border-top: double 10px blue;
+  border-bottom: solid 10px blue;
+  border-right: dashed 30px rgb(153, 14, 16);
+  /* bor
+  font-size: 80px; */
 }
 .image {
   width: 100px;
