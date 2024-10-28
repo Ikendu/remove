@@ -44,8 +44,8 @@ th {
 }
 
 table {
-  width: 50%;
-  margin: 80px 40px 200px 500px;
+  width: 700px;
+  /* margin: 80px 40px 200px 500px; */
   background-color: rgb(81, 81, 129);
 }
 td,
@@ -98,4 +98,7 @@ header {
 }
 .blueItem {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tableCover {
+  overflow: auto;
 }
