@@ -1,0 +1,109 @@
+body {
+  /* background-image: url("https://files.123freevectors.com/wp-content/original/133615-modern-abstract-cool-blue-background.jpg");
+  background-attachment: fixed; */
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.upperHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.logo h1 {
+  margin: 0;
+  font-family: sofia;
+}
+.logo input {
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-left: 40px;
+}
+.navItems {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+}
+.navItems li a {
+  text-decoration: none;
+  padding: 20px;
+}
+.navItems li a:hover {
+  background-color: #04a96d;
+  color: white;
+}
+
+.lowerHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #353535;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+.lowerHeader li {
+  list-style: none;
+  padding: 10px 20px;
+}
+.lowerHeader li:hover {
+  background-color: black;
+}
+
+.lowerHeader li a {
+  color: rgb(215, 227, 227);
+  text-decoration: none;
+  list-style: none;
+}
+
+.header1 {
+  border: double 13px blue;
+  background-image: url(images/blue.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h5 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.firstClass {
+  text-align: center;
+  font-size: 30px;
+  color: #5e75d7;
+}
+#shirt {
+  font-size: 40px;
+}
+.links {
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.links:hover {
+  background-color: #04a96d;
+  color: #102015;
+}
+.links:active {
+  background-color: #5e75d7;
+}
+.links:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+.imageLink {
+  width: 40px;
+}
