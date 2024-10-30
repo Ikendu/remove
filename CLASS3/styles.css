@@ -73,6 +73,9 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
+h4 {
+  display: inline;
+}
 h5 {
   font-size: 2em;
   text-align: center;
@@ -86,6 +89,7 @@ h5 {
 }
 #shirt {
   font-size: 40px;
+  display: inline;
 }
 .links {
   padding: 20px;
@@ -106,4 +110,44 @@ h5 {
 }
 .imageLink {
   width: 40px;
+}
+.myTable {
+  width: 50%;
+
+  margin: 40px;
+}
+.myTable,
+td,
+th {
+  border: solid 3px #5d5d5d;
+  border-collapse: collapse;
+}
+
+th {
+  /* text-align: left; */
+  background-color: #9ffad9;
+  font-size: 20px;
+  color: #102273;
+}
+th:hover {
+  background-color: #09271c;
+  color: #92a4f4;
+}
+
+td {
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: #2d7e7e;
+  color: #f0eefa;
+}
+td,
+th {
+  padding: 20px;
+}
+.rowThree td {
+  height: 200px;
+  padding: 0;
+  /* align-content: end;
+  text-align: right; */
 }
