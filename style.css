@@ -23,8 +23,11 @@ a {
 }
 .tomato {
   text-align: center;
-  border: solid 10px blue;
-  font-size: 80px;
+  border-top: double 10px blue;
+  border-bottom: solid 10px blue;
+  border-right: dashed 30px rgb(153, 14, 16);
+  /* bor
+  font-size: 80px; */
 }
 .image {
   width: 100px;
@@ -41,8 +44,8 @@ th {
 }
 
 table {
-  width: 50%;
-  margin: 80px 40px 200px 500px;
+  width: 700px;
+  /* margin: 80px 40px 200px 500px; */
   background-color: rgb(81, 81, 129);
 }
 td,
@@ -95,4 +98,7 @@ header {
 }
 .blueItem {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tableCover {
+  overflow: auto;
 }
